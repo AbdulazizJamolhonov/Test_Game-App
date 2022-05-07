@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Homework 4-2</string>
+    <string name="math_game">Math game</string>
+    <string name="_1_savol">1 - savol</string>
+    <string name="_2_savol">2 - savol</string>
+    <string name="_3_savol">3 - savol</string>
+    <string name="_4_savol">4 - savol</string>
+    <string name="t_0">T: 0</string>
+    <string name="testni_boshlash">Start Test</string>
+    <string name="f_0">F: 0</string>
+    <string name="a">A:</string>
+    <string name="b">B:</string>
+    <string name="c">C:</string>
+    <string name="d">D:</string>
+    <string name="call_center">Call Center:</string>
+    <string name="_998916798510">+998916798510</string>=
+</resources>

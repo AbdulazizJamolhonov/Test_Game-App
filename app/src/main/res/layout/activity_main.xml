@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_fon"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70">
+
+        <TextView
+            android:id="@+id/tv_savol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/savol_soni1"
+            style="@style/qeusnum"
+            android:layout_marginStart="15dp"
+            android:text="@string/t_0" />
+
+        <Button
+            android:id="@+id/savol_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/testni_boshlash"
+            android:textSize="27sp"
+            tools:ignore="InefficientWeight,NestedWeights" />
+
+        <TextView
+            android:id="@+id/savol_soni2"
+            style="@style/qeusnum"
+            android:layout_marginEnd="15dp"
+            android:text="@string/f_0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/a_var"
+                style="@style/button"
+                android:text="@string/a" />
+
+            <TextView
+                android:id="@+id/a_savol"
+                style="@style/textview"
+                android:gravity="center"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b_var"
+                style="@style/button"
+                android:text="@string/b" />
+
+            <TextView
+                android:id="@+id/b_savol"
+                style="@style/textview"
+                android:gravity="center"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/c_var"
+                style="@style/button"
+                android:text="@string/c" />
+
+            <TextView
+                android:id="@+id/c_savol"
+                style="@style/textview"
+                android:gravity="center"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/d_var"
+                style="@style/button"
+                android:text="@string/d" />
+
+            <TextView
+                android:id="@+id/d_savol"
+                style="@style/textview"
+                android:gravity="center"
+                android:text="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/callCenter"
+            android:gravity="center|bottom"
+            android:layout_weight="1.5"
+            android:text="@string/call_center"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            style="@style/callCenter"
+            android:gravity="center|top"
+            android:layout_weight="1"
+            android:text="@string/_998916798510" />
+
+    </LinearLayout>
+
+</LinearLayout>
